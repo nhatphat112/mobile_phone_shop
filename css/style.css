@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container
+{
+	position: relative;
+    background-color: #bdc7b2;
+    width: auto;
+    height: 600px;	
+}
+#banner
+{
+	height: 100px;
+    width: 1300px;
+    background-color: cadetblue;	
+}
+#main-content
+{
+	display:flex;	
+}
+#left-content
+{
+	display: inline-block;
+    width: 300px;
+    height: 400px;
+    background-color: #959595;
+;	
+}
+#right-content
+{
+	display: flex;
+    width: 1000px;
+    height: auto;
+    background-color: #F1A4A5;	
+	flex-wrap: wrap;
+}
+#footer
+{
+	height: 100px;
+    width: 1300px;
+    background-color: #00f3ffa8;	
+}
+.sanpham
+{
+	width: 222px;
+    height: 290px;
+    background-color: #DF73A4;
+    margin: 10px;
+}
+.hinhanh
+{
+	margin: 8px;	
+}
+
+.tensanpham
+{
+	text-align:center;
+	font-weight:bold;
+	font-size:30px;	
+}
+.giasanpham
+{
+	font-weight: bold;
+    text-align: center;
+    font-size: 20px;	
+}
+#left-content *
+{
+	display:block;	
+}
+td label{
+	width: 120px;
+	display: inline-block;
+}
+table {
+	width: 700px;
+}
+.home {
+	width: 1000px !important;
+	display: block !important;
+}
+.row-item{
+	display: flex;
+}
+
